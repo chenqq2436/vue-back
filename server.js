@@ -5,6 +5,7 @@ let users = [
   { id: 3, name: "3chenfangfang3" },
   { id: 4, name: "4chenyunliang4" },
   { id: 5, name: "5陈强5" },
+  { id: 6, name: "6孙韩丽6" },
 ];
 const server = http.createServer(function (req, res) {
   // 解决跨域
