@@ -1,11 +1,11 @@
 const http = require("http");
 let users = [
-  { id: 1, name: "1cehnqiang1111" },
-  { id: 2, name: "2sunhanli2111" },
-  { id: 3, name: "3chenfangfang3111" },
-  { id: 4, name: "4chenyunliang4111" },
-  { id: 5, name: "5陈强5111" },
-  { id: 6, name: "6孙韩丽61111" },
+  { id: 1, name: "a1" },
+  { id: 2, name: "b2" },
+  { id: 3, name: "c3" },
+  { id: 4, name: "d4" },
+  { id: 5, name: "e5" },
+  { id: 6, name: "f6" },
 ];
 const server = http.createServer(function (req, res) {
   // 解决跨域
